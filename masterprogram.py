@@ -407,4 +407,4 @@ while True:
     lastday=day
 
     # determine how much time to wait so that loop is executed based on checkTime seconds
-time.sleep(a["checkTime"] - ((time.time() - loopstart) % 60.0))
+    time.sleep(a["checkTime"] - ((time.time() - loopstart) % 60.0))
